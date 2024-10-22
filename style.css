@@ -1,0 +1,57 @@
+* {   /* Reset the margin and padding for all the elements */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+  font-family: 'Overpass', sans-serif; 
+  text-align: center; 
+  color: #003046; /* Default text color */
+  background-color: #F9E9EC;/* Background color */
+}
+
+h1 {
+  background-color: #FAC748;
+  color:#1D2F6F;
+  text-align: center; 
+  font-family: 'Playfair Display', serif;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 60%;
+  text-align: center;
+  font-family: 'Overpass', sans-serif; 
+}
+
+/* STYLE TEXT */
+p {
+  font-size: 1.2em;
+  text-align: left; 
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#fact {
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+h1 {
+  font-size: 2.2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+
+
+/* STYLE BUTTON */
+button {
+  background: #FAC748;
+  padding: 10px;
+  font-family: 'Playfair Display', serif;
+  font-size: 1em;
+  border-style: none;
+}
