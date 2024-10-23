@@ -1,57 +1,57 @@
 * {   /* Reset the margin and padding for all the elements */
-   margin: 0px;
-   padding: 0px;
+   margin: 0px; /*the margin is 0 pixels*/
+   padding: 0px; /*the space around the writing is 0 pixels*/
 }
 
 body {
-  font-family: 'Overpass', sans-serif; 
-  text-align: center; 
+  font-family: 'Overpass', sans-serif;  /*the font of the writing is one of these two*/
+  text-align: center; /*the text is in the center of the website*/
   color: #003046; /* Default text color */
   background-color: #F9E9EC;/* Background color */
 }
 
 h1 {
-  background-color: #FAC748;
-  color:#1D2F6F;
-  text-align: center; 
-  font-family: 'Playfair Display', serif;
+  background-color: #FAC748; /*makes the background a yellow color*/
+  color:#1D2F6F; /*makes the color of the heading a navy*/
+  text-align: center; /*makes the text at the center of the website */
+  font-family: 'Playfair Display', serif; /*makes the font for the text*/
 }
 
 main {
-  margin: 0 auto;
-  max-width: 60%;
-  text-align: center;
-  font-family: 'Overpass', sans-serif; 
+  margin: 0 auto; /*makes the margin automatically 0*/
+  max-width: 60%; /*makes the max length 60%*/
+  text-align: center; /*the text goes to the middle*/
+  font-family: 'Overpass', sans-serif; /*makes the font of the text be these two*/
 }
 
 /* STYLE TEXT */
 p {
-  font-size: 1.2em;
-  text-align: left; 
-  padding-top: 1em;
-  padding-bottom: 1em;
+  font-size: 1.2em; /*thius makes the font size 1.2*/
+  text-align: left; /*this makes the text go to the left*/
+  padding-top: 1em; /*this makes the space around the top of the text 1*/
+  padding-bottom: 1em; /*this makes the space around the bottom of the text 1*/
 }
 
 #fact {
-  font-weight: 700;
-  font-size: 1.5em;
-  text-align: center;
-  margin-top: 1.5em;
+  font-weight: 700; /*this makes the font weight 700*/
+  font-size: 1.5em; /*this makes the font size 1.5*/
+  text-align: center; /*this makes the text at the middle*/
+  margin-top: 1.5em; /*this makes the margin at the top to be 1.5*/
 }
 
 h1 {
-  font-size: 2.2em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  font-size: 2.2em; /*this makes the font size be 2.2*/
+  padding-top: 1em; /*this makes the space at the top of the text be 1*/
+  padding-bottom: 1em; /*this makes the space at the bottom of the text be 1*/
 }
 
 
 
 /* STYLE BUTTON */
 button {
-  background: #FAC748;
-  padding: 10px;
-  font-family: 'Playfair Display', serif;
-  font-size: 1em;
-  border-style: none;
+  background: #FAC748; /*this makes the button yellow*/
+  padding: 10px;  /*this makes the space around the text to be 10 pixels*/
+  font-family: 'Playfair Display', serif;  /*this makes the text to be one of these 2 fonts*/
+  font-size: 1em;  /*this makes the font size be 1*/
+  border-style: none;  /*there is no border style*/
 }
